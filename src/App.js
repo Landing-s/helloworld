@@ -3,6 +3,7 @@ import './App.css';
 import Layout from './components/layout';
 import ToDo from './components/to-do';
 import Home from './components/home' ;
+import Fetch from './components/fetch';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" element={<Layout></Layout>}>
           <Route index element={<Home/>}></Route>
           <Route path='/todo' element={<ToDo/>}></Route>
+          <Route path='/fetch' element={<Fetch/>}></Route>
           <Route path='*' element={<Home/>}></Route>
         </Route>
       </Routes>
