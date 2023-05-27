@@ -1,3 +1,4 @@
+
 import { Navbar } from "react-bootstrap";
 import { Outlet } from "react-router-dom";
 
@@ -38,9 +39,14 @@ function Layout() {
                     </form>
                 </div>
             </div>
-        </nav><div className="w-25 outline m-auto">
-            <Outlet></Outlet>
+
+        </nav><div className = "w-25 outline m-auto">
+                <Outlet>
+
+                </Outlet>
             </div></>
     );
 }
-export default Layout
+
+export default Layout;
+
