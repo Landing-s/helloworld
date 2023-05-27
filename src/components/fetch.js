@@ -19,6 +19,7 @@ function Fetch() {
     return(
         <div>{data.map((user) => {
             return <div>{user.username}</div>
+
         })}</div>
     );
 }
