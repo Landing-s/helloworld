@@ -19,7 +19,7 @@ function App() {
           <Route path = "*" element = {<Home/>}></Route>
           <Route path = "/fetch" element = {<Fetch/>}></Route>
           <Route path = "/favorite_color" element = {<FavoriteColor/>}></Route>
-          <Route path = "/form" element = {<React/>}></Route>
+          <Route path = "/form" element = {<Form/>}></Route>
         </Route>
       </Routes>
     </BrowserRouter>
